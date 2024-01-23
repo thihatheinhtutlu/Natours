@@ -1,8 +1,8 @@
-import './button.css';
+import './button.scss';
 
 function Button () {
     return (
-            <a href='#' className='btn btn-white btn-animated'>Discover our tours</a>
+            <a href='#' className='btn btn--white btn--animated'>Discover our tours</a>
     );
 }
 
