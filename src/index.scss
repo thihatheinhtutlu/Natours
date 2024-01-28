@@ -1,4 +1,9 @@
 @import './asset/abstracts/variables';
+@import './asset/abstracts/functions';
+@import './asset/abstracts/mixins';
+
+@import '/src/asset/scss/animation';
+
 
 *,
 *::after,

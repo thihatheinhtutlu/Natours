@@ -14,7 +14,7 @@ function Header() {
                     <span className='heading-primary--main'>Outdoors</span>
                     <span className='heading-primary--sub'> is where life happens</span>
                 </h1>
-                <Button/>
+                <Button buttonType='white'>Discover more</Button>
             </div>
         </header>
     );
