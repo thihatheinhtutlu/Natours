@@ -17,7 +17,7 @@ const getButtonType = (buttonType: ButtonProps['buttonType']) => {
     }
 }
 
-function Button ({ className, buttonType ,...otherProps }: ButtonProps ) {
+function Button ({ className, buttonType , ...otherProps }: ButtonProps ) {
     return (
             <a href='#' className={`btn btn--animated ${className} ${getButtonType(buttonType)}`} {...otherProps}/>
     );
