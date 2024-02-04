@@ -1,0 +1,11 @@
+@import '/src/asset/abstracts/variables';
+@import '/src/asset/abstracts/mixins';
+@import '/src/asset/scss/utilities';
+
+@import '/src/components/home/home.scss';
+
+.section-tours {
+    background-color: $color-grey-light-1;
+    padding: 25rem 0 15rem 0;
+    margin-top: -12rem;
+}

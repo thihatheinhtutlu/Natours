@@ -5,7 +5,6 @@ import Header from './components/header/header';
 import Home from './components/home/home';
 // import Page from './components/pages/pages';
 
-
 function App() {
   return (
     <div className="App">

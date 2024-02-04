@@ -4,7 +4,7 @@ import { type ReactNode } from "react";
 type ButtonProps = { 
     children : ReactNode; 
     className?: string;
-    buttonType?: 'white' | 'text' 
+    buttonType?: 'white' | 'text' | 'green'
 }
 
 const getButtonType = (buttonType: ButtonProps['buttonType']) => {
@@ -15,6 +15,9 @@ const getButtonType = (buttonType: ButtonProps['buttonType']) => {
     if (buttonType === 'text') {
         return 'btn-text'
     }
+
+    if (buttonType === 'green')
+        return 'btn--green'
 }
 
 function Button ({ className, buttonType , ...otherProps }: ButtonProps ) {
