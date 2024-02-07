@@ -3,6 +3,7 @@ import './home.scss';
 import Button from '../button/button';
 import Features from '../features/features';
 import Tours from '../tours/tours';
+import Story from '../stories/stories';
 
 
 import nat1 from '../../../src/asset/img/nat-1-large.jpg'
@@ -48,6 +49,7 @@ function Home() {
             </section>
             <Features/>
             <Tours/>
+            <Story/>
         </main>
 
             /* <div className='row'>
