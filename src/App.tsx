@@ -3,14 +3,14 @@ import React from 'react';
 import './index.scss'
 import Header from './components/header/header';
 import Home from './components/home/home';
-// import Page from './components/pages/pages';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <Home/>
-      
+      <Footer/>
     </div>
   );
 }
