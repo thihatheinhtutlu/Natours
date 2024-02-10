@@ -4,6 +4,7 @@ import Button from '../button/button';
 import Features from '../features/features';
 import Tours from '../tours/tours';
 import Story from '../stories/stories';
+import Booking from '../booking/booking';
 
 
 import nat1 from '../../../src/asset/img/nat-1-large.jpg'
@@ -50,6 +51,7 @@ function Home() {
             <Features/>
             <Tours/>
             <Story/>
+            <Booking/>
         </main>
 
             /* <div className='row'>
