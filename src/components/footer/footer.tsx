@@ -22,7 +22,7 @@ function Footer(){
                 </div>
                 <div className="col-1-of-2">
                     <p className="footer__copyright">
-                        Built by <a href="#" className="footer__link">Thomas</a> for his online course <a href="" className="footer__link">Advanced CSS</a>
+                        Built by <a href="#" className="footer__link">Thomas</a> for his job <a href="" className="footer__link"> something</a>
                     </p>
                 </div>
             </div>
